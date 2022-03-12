@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #994533;
+}
+
+@media screen and (max-width: 414px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .row {
+        margin: 0;
+    }
+}
+
+.product > div {
+    height: 300px;
+}
+
+// nth
+
+.product > div:nth-child(1) {
+    background-image: url(img/small1.jpg);
+}
+.product > div:nth-child(2) {
+    background-image: url(img/small2.jpg);
+}
+.product > div:nth-child(3) {
+    background-image: url(img/small3.jpg);
+}
+.product > div:nth-child(4) {
+    background-image: url(img/small4.jpg);
+}
