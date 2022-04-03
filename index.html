@@ -82,38 +82,105 @@
             </button>
         </div>
 
-        <h1 class="text-light">產品介紹</h1>
+        <h1 style="color:black">產品介紹</h1>
         <div class="row product">
             <!-- 4個 -->
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <p>经典牛奶巧克力滋味<br>
+            <div class="col-lg-6 col-md-6 col-sm-12 m-2">
+                <p class="text-dark py-2">经典牛奶巧克力滋味<br>
                     独特口感，多重享受，黑巧克力期间限再不入手就没有喽
 
                 </p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <p>经典牛奶巧克力滋味<br>
+            <div class="col-lg-6 col-md-6 col-sm-12 m-2">
+                <p class="text-dark py-2">经典牛奶巧克力滋味<br>
                     独特口感，多重享受，黑巧克力期间限再不入手就没有喽
 
                 </p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12" > 
-                <p>经典牛奶巧克力滋味<br>
+            <div class="col-lg-6 col-md-6 col-sm-12 m-2">
+                <p class="text-dark py-2">经典牛奶巧克力滋味<br>
                     独特口感，多重享受，黑巧克力期间限再不入手就没有喽
 
                 </p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <p>经典牛奶巧克力滋味<br>
+            <div class="col-lg-6 col-md-6 col-sm-12 m-2">
+                <p class="text-dark py-2">经典牛奶巧克力滋味<br>
                     独特口感，多重享受，黑巧克力期间限再不入手就没有喽
 
                 </p>
             </div>
-            
+
 
         </div>
 
+        <h1 style="color:black">服務</h1>
+        <div class="row">
+            <div class="card col-lg-4 col-md-4 col-sm-12">
+                <img src="img/straight1..jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">像一個森林王子出現在3點一刻的下午茶餐上
+                        確認過眼神，是想吃了你的感覺。</p>
+                </div>
+            </div>
+            <div class="card col-lg-4 col-md-4 col-sm-12">
+                <img src="img/straight2..jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">像一個森林王子出現在3點一刻的下午茶餐上
+                        確認過眼神，是想吃了你的感覺。</p>
+                </div>
+            </div>
+            <div class="card col-lg-4 col-md-4 col-sm-12">
+                <img src="img/straight3..jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">像一個森林王子出現在3點一刻的下午茶餐上
+                        確認過眼神，是想吃了你的感覺。</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <h1 style="color:black">聯絡我們</h1>
+        <form id="contact-form">
+            <input type="hidden" name="contact_number">
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">姓名</label>
+                <div class="col-sm-10">
+                    <input type="text" name="main_name" class="form-control" id="inputEmail3" placeholder="請輸入姓名"
+                        required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">信箱</label>
+                <div class="col-sm-10">
+                    <input type="email" name="email_test" class="form-control" id="inputPassword3" placeholder="請輸入信箱">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">請輸入您的建議</label>
+                <div class="col-sm-10">
+                    <textarea id="" name="text_area" style="width:100%" rows="10"></textarea>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary d-block mx-auto"> 送出</button>
+
+
+        </form>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.351396634118!2d132.4597995144475!3d34.39241330717586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355aa20f687bb0ed%3A0x76a742cd4a5e9144!2zSCZN!5e0!3m2!1szh-TW!2sjp!4v1648301541122!5m2!1szh-TW!2sjp"
+            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <footer class="bg-dark">
+            <p class="text-light">Copyright © 2020 Kyrie 版權所有</p>
+        </footer>
+
     </div>
+
+
+    <!-- email -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -124,6 +191,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
         crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('CW1WcDBYi90F9Vtu1');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_zuxnnq5', 'template_tzf7ito', this)
+                    .then(function () {
+                        console.log('SUCCESS!');
+                        document.getElementById('contact-form').reset()
+                        alert("信件已寄出")
+                    }, function (error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+
 </body>
 
 </html>
